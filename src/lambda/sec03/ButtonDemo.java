@@ -17,7 +17,7 @@ public class ButtonDemo extends Application {
    public void start(Stage stage) {
       
       Button cancelButton = new Button("Cancel");
-      cancelButton.setOnAction(new CancelAction());
+      cancelButton.setOnAction(event -> System.out.println("Oh noooo"));
       
       Label message = new Label("Hello, JavaFX!");
       message.setFont(new Font(100));
